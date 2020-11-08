@@ -5,7 +5,7 @@ CLI scraper for https://bgp.he.net with json output.
 ## Install
 git clone https://github.com/Aboriginal-Technology-Solutions/bgp.he.net
 
-[code]
+```
 cd bgp.he.net
 
 yarn
@@ -13,8 +13,8 @@ yarn
 yarn build
 
 yarn start
-[/code]
 
+```
 ## Donate
 
 - Cash app: $WFPS
