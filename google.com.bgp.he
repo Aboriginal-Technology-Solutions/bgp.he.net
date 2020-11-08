@@ -1,0 +1,233 @@
+{
+  "dns": {
+    "startOfAuthority": {
+      "mname": "ns1.google.com",
+      "rname": "dns-admin.google.com",
+      "serial": "341187700",
+      "refresh": "900",
+      "retry": "900",
+      "expire": "1800",
+      "minimum": "60"
+    },
+    "nameservers": [
+      {
+        "title": "ns1.google.com",
+        "href": "https://bgp.he.net/dns/ns1.google.com"
+      },
+      {
+        "title": "ns2.google.com",
+        "href": "https://bgp.he.net/dns/ns2.google.com"
+      },
+      {
+        "title": "ns3.google.com",
+        "href": "https://bgp.he.net/dns/ns3.google.com"
+      },
+      {
+        "title": "ns4.google.com",
+        "href": "https://bgp.he.net/dns/ns4.google.com"
+      }
+    ],
+    "mailExchangers": [
+      {
+        "title": "aspmx.l.google.com",
+        "href": "https://bgp.he.net/dns/aspmx.l.google.com"
+      },
+      {
+        "title": "alt1.aspmx.l.google.com",
+        "href": "https://bgp.he.net/dns/alt1.aspmx.l.google.com"
+      },
+      {
+        "title": "alt2.aspmx.l.google.com",
+        "href": "https://bgp.he.net/dns/alt2.aspmx.l.google.com"
+      },
+      {
+        "title": "alt3.aspmx.l.google.com",
+        "href": "https://bgp.he.net/dns/alt3.aspmx.l.google.com"
+      },
+      {
+        "title": "alt4.aspmx.l.google.com",
+        "href": "https://bgp.he.net/dns/alt4.aspmx.l.google.com"
+      }
+    ],
+    "txtRecords": [
+      "globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=",
+      "docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e",
+      "v=spf1 include:_spf.google.com ~all",
+      "facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95",
+      "docusign=1b0a6754-49b1-4db5-8540-d2c12664b289"
+    ],
+    "aRecords": [
+      {
+        "title": "172.217.11.46",
+        "href": "https://bgp.he.net/ip/172.217.11.46"
+      }
+    ],
+    "aaaaRecords": [
+      {
+        "title": "2607:F8B0:4006:815::200E",
+        "href": "https://bgp.he.net/ip/2607:F8B0:4006:815::200E"
+      }
+    ]
+  },
+  "screenshot": "/webthumbs/g/o/google.com_720.png?1602287285",
+  "ipinfo": [
+    {
+      "href": "//www.he.net/"
+    },
+    {
+      "title": "google.com",
+      "href": "/dns/google.com"
+    },
+    {
+      "href": "//bgp.he.net/"
+    },
+    {
+      "href": "/report/prefixes"
+    },
+    {
+      "href": "/report/peers"
+    },
+    {
+      "href": "/report/exchanges"
+    },
+    {
+      "href": "/report/bogons"
+    },
+    {
+      "href": "/report/world"
+    },
+    {
+      "href": "/report/multi-origin-routes"
+    },
+    {
+      "href": "/report/dns"
+    },
+    {
+      "href": "/report/tophosts"
+    },
+    {
+      "href": "/report/netstats"
+    },
+    {
+      "href": "//lg.he.net/"
+    },
+    {
+      "href": "//networktools.he.net/"
+    },
+    {
+      "href": "//tunnelbroker.net/"
+    },
+    {
+      "href": "//ipv6.he.net/certification/"
+    },
+    {
+      "href": "//bgp.he.net/ipv6-progress-report.cgi"
+    },
+    {
+      "href": "//bgp.he.net/going-native.pdf"
+    },
+    {
+      "href": "//bgp.he.net/contact/"
+    },
+    {
+      "title": "Hurricane Electric on Twitter",
+      "href": "/r/Twitter"
+    },
+    {
+      "title": "Hurricane Electric on Facebook",
+      "href": "/r/Facebook"
+    },
+    {
+      "title": "ns1.google.com",
+      "href": "/dns/ns1.google.com"
+    },
+    {
+      "title": "ns2.google.com",
+      "href": "/dns/ns2.google.com"
+    },
+    {
+      "title": "ns3.google.com",
+      "href": "/dns/ns3.google.com"
+    },
+    {
+      "title": "ns4.google.com",
+      "href": "/dns/ns4.google.com"
+    },
+    {
+      "title": "aspmx.l.google.com",
+      "href": "/dns/aspmx.l.google.com"
+    },
+    {
+      "title": "alt1.aspmx.l.google.com",
+      "href": "/dns/alt1.aspmx.l.google.com"
+    },
+    {
+      "title": "alt2.aspmx.l.google.com",
+      "href": "/dns/alt2.aspmx.l.google.com"
+    },
+    {
+      "title": "alt3.aspmx.l.google.com",
+      "href": "/dns/alt3.aspmx.l.google.com"
+    },
+    {
+      "title": "alt4.aspmx.l.google.com",
+      "href": "/dns/alt4.aspmx.l.google.com"
+    },
+    {
+      "title": "172.217.11.46",
+      "href": "/ip/172.217.11.46"
+    },
+    {
+      "title": "2607:F8B0:4006:815::200E",
+      "href": "/ip/2607:F8B0:4006:815::200E"
+    },
+    {
+      "title": "172.217.11.46",
+      "href": "/ip/172.217.11.46"
+    },
+    {
+      "title": "172.217.11.0/24",
+      "href": "/net/172.217.11.0/24"
+    },
+    {
+      "title": "AS15169 Google LLC",
+      "href": "/AS15169"
+    },
+    {
+      "title": "172.217.11.46",
+      "href": "/ip/172.217.11.46"
+    },
+    {
+      "title": "172.217.0.0/16",
+      "href": "/net/172.217.0.0/16"
+    },
+    {
+      "title": "AS15169 Google LLC",
+      "href": "/AS15169"
+    },
+    {
+      "title": "2607:f8b0:4006:815::200e",
+      "href": "/ip/2607:f8b0:4006:815::200e"
+    },
+    {
+      "title": "2607:f8b0:4006::/48",
+      "href": "/net/2607:f8b0:4006::/48"
+    },
+    {
+      "title": "AS15169 Google LLC",
+      "href": "/AS15169"
+    },
+    {
+      "title": "2607:f8b0:4006:815::200e",
+      "href": "/ip/2607:f8b0:4006:815::200e"
+    },
+    {
+      "title": "2607:f8b0::/32",
+      "href": "/net/2607:f8b0::/32"
+    },
+    {
+      "title": "AS15169 Google LLC",
+      "href": "/AS15169"
+    }
+  ]
+}

@@ -5,10 +5,17 @@ import cheerio from 'cheerio'
 import {
   camelCase
 } from 'lodash'
+import { writeFileSync } from 'fs'
 async function nm (opts = {}) {
   return new Nightmare(options)
 }
+const args = process.argv.slice(2)
+const domain = args[0]
+let filepath = args[1]
+let debug = args[3] || false
 
+if (!domain) {log(`No domain entered... Exiting disgracefully...`); process.exit()}
+if (!filepath) { filepath = `${domain}.bgp.he`}
 class BGP {
   constructor () {
     this.url = `bgp.he.net`
@@ -47,7 +54,7 @@ function dnsInfo (html) {
     let data = dnsData[i].map(x => x.trim()).filter(x => !!x)
 
     if (header === 'startOfAuthority') {
-      console.dir('startOfAuthority', {header})
+      // console.dir('startOfAuthority', {header})
       // data = data.map(x => x.split(':').map(y => ({[y[0]]: y[1].trim()})))
       let _tmp = {}
       data = data.map(x => {
@@ -91,12 +98,14 @@ function getJson(data) {
 let bgp = new BGP()
 
 ;(async () => {
+    log(`Fetch dns info for ${domain} from bgp.he.net`)
     let _dnsInfo = {}
-    let html = (await bgp.dns('yahoo.com'))
+    let html = (await bgp.dns(domain))
  
     _dnsInfo.dns = dnsInfo(html)
     _dnsInfo.screenshot = websiteInfo(html)
     _dnsInfo.ipinfo = ipInfo(html)
 
-    log(getJson(_dnsInfo))
+    if (debug) log(getJson(_dnsInfo))
+    writeFileSync(filepath, getJson(_dnsInfo))
 })()

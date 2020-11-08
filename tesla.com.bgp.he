@@ -1,0 +1,220 @@
+{
+  "dns": {
+    "startOfAuthority": {
+      "mname": "edns69.ultradns.com",
+      "rname": "noc.teslamotors.com",
+      "serial": "2016022701",
+      "refresh": "1800",
+      "retry": "86400",
+      "expire": "86400",
+      "minimum": "86400"
+    },
+    "nameservers": [
+      {
+        "title": "a1-12.akam.net",
+        "href": "https://bgp.he.net/dns/a1-12.akam.net"
+      },
+      {
+        "title": "a10-67.akam.net",
+        "href": "https://bgp.he.net/dns/a10-67.akam.net"
+      },
+      {
+        "title": "a12-64.akam.net",
+        "href": "https://bgp.he.net/dns/a12-64.akam.net"
+      },
+      {
+        "title": "a28-65.akam.net",
+        "href": "https://bgp.he.net/dns/a28-65.akam.net"
+      },
+      {
+        "title": "a7-66.akam.net",
+        "href": "https://bgp.he.net/dns/a7-66.akam.net"
+      },
+      {
+        "title": "a9-67.akam.net",
+        "href": "https://bgp.he.net/dns/a9-67.akam.net"
+      },
+      {
+        "title": "edns69.ultradns.biz",
+        "href": "https://bgp.he.net/dns/edns69.ultradns.biz"
+      },
+      {
+        "title": "edns69.ultradns.com",
+        "href": "https://bgp.he.net/dns/edns69.ultradns.com"
+      },
+      {
+        "title": "edns69.ultradns.net",
+        "href": "https://bgp.he.net/dns/edns69.ultradns.net"
+      },
+      {
+        "title": "edns69.ultradns.org",
+        "href": "https://bgp.he.net/dns/edns69.ultradns.org"
+      }
+    ],
+    "mailExchangers": [
+      {
+        "title": "us-smtp-inbound-1.mimecast.com",
+        "href": "https://bgp.he.net/dns/us-smtp-inbound-1.mimecast.com"
+      },
+      {
+        "title": "us-smtp-inbound-2.mimecast.com",
+        "href": "https://bgp.he.net/dns/us-smtp-inbound-2.mimecast.com"
+      }
+    ],
+    "txtRecords": [
+      "55zNJIDU0xk94IfGJtL+Hh+wje5JzOS6GY+ntggZF908AUsx0LBKgr+Nln3CgZEUifxSuN09M05jYpdbd6+cpw==",
+      "v=spf1 include:us._netblocks.mimecast.com ip4:168.245.123.10 ip4:216.81.144.165 ip4:149.72.247.52 ip4:149.72.134.64 ip4:149.72.152.236 ip4:149.72.163.58 ip4:149.72.172.170 ip4:207.211.31.81 ip4:149.96.231.186 ip4:207.211.30.101 ip4:149.96.247.186 ip4:148.",
+      "163.155.1 ip4:148.163.151.57 ip4:209.11.133.122 ip4:13.111.88.1 ip4:13.111.88.2 ip4:13.111.88.52 ip4:13.111.88.53 ip4:13.111.62.118 ip4:94.103.153.130 ip4:82.199.68.176/28 ip4:95.172.66.176/28 ip4:51.163.163.128/25 ip4:149.96.0.0/16 include:spf.protection",
+      ".outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:_spfsn.teslamotors.com include:_spf.qualtrics.com -all",
+      "adobe-sign-verification=efb2da198047b7a154bd604d2721038b",
+      "traction-guest=b4f7ad59-bf17-4b3c-8b36-9c2d28f1de32",
+      "SFMC-qkAv7SvlQaslp7NEALX8t68s_AZWOQB6ThKQS5l5",
+      "T0E0S29854",
+      "adobe-idp-site-verification=321c026a-3a8c-4206-a1fa-391a59585c54",
+      "bugcrowd-verification=40bd5dd89a6e4073ca9bc76feac3a47b",
+      "zapier-domain-verification-challenge=64e810e8-0fe1-4de0-b104-229592811c5b",
+      "google-site-verification=Y7lbse5bSatjXaqSBOWXjsit4mOp9cQzfLDpnQUSZlg",
+      "teamviewer-sso-verification=2fc989f75b19494fab5eb0e2c22dd625",
+      "logmein-domain-confirmation=9zxwVn2buGWrLtU24J88"
+    ],
+    "aRecords": [
+      {
+        "title": "199.66.11.62",
+        "href": "https://bgp.he.net/ip/199.66.11.62"
+      }
+    ]
+  },
+  "screenshot": "/webthumbs/t/e/tesla.com_720.png?1601965279",
+  "ipinfo": [
+    {
+      "href": "//www.he.net/"
+    },
+    {
+      "title": "tesla.com",
+      "href": "/dns/tesla.com"
+    },
+    {
+      "href": "//bgp.he.net/"
+    },
+    {
+      "href": "/report/prefixes"
+    },
+    {
+      "href": "/report/peers"
+    },
+    {
+      "href": "/report/exchanges"
+    },
+    {
+      "href": "/report/bogons"
+    },
+    {
+      "href": "/report/world"
+    },
+    {
+      "href": "/report/multi-origin-routes"
+    },
+    {
+      "href": "/report/dns"
+    },
+    {
+      "href": "/report/tophosts"
+    },
+    {
+      "href": "/report/netstats"
+    },
+    {
+      "href": "//lg.he.net/"
+    },
+    {
+      "href": "//networktools.he.net/"
+    },
+    {
+      "href": "//tunnelbroker.net/"
+    },
+    {
+      "href": "//ipv6.he.net/certification/"
+    },
+    {
+      "href": "//bgp.he.net/ipv6-progress-report.cgi"
+    },
+    {
+      "href": "//bgp.he.net/going-native.pdf"
+    },
+    {
+      "href": "//bgp.he.net/contact/"
+    },
+    {
+      "title": "Hurricane Electric on Twitter",
+      "href": "/r/Twitter"
+    },
+    {
+      "title": "Hurricane Electric on Facebook",
+      "href": "/r/Facebook"
+    },
+    {
+      "title": "a1-12.akam.net",
+      "href": "/dns/a1-12.akam.net"
+    },
+    {
+      "title": "a10-67.akam.net",
+      "href": "/dns/a10-67.akam.net"
+    },
+    {
+      "title": "a12-64.akam.net",
+      "href": "/dns/a12-64.akam.net"
+    },
+    {
+      "title": "a28-65.akam.net",
+      "href": "/dns/a28-65.akam.net"
+    },
+    {
+      "title": "a7-66.akam.net",
+      "href": "/dns/a7-66.akam.net"
+    },
+    {
+      "title": "a9-67.akam.net",
+      "href": "/dns/a9-67.akam.net"
+    },
+    {
+      "title": "edns69.ultradns.biz",
+      "href": "/dns/edns69.ultradns.biz"
+    },
+    {
+      "title": "edns69.ultradns.com",
+      "href": "/dns/edns69.ultradns.com"
+    },
+    {
+      "title": "edns69.ultradns.net",
+      "href": "/dns/edns69.ultradns.net"
+    },
+    {
+      "title": "edns69.ultradns.org",
+      "href": "/dns/edns69.ultradns.org"
+    },
+    {
+      "title": "us-smtp-inbound-1.mimecast.com",
+      "href": "/dns/us-smtp-inbound-1.mimecast.com"
+    },
+    {
+      "title": "us-smtp-inbound-2.mimecast.com",
+      "href": "/dns/us-smtp-inbound-2.mimecast.com"
+    },
+    {
+      "title": "199.66.11.62",
+      "href": "/ip/199.66.11.62"
+    },
+    {
+      "title": "199.66.11.62",
+      "href": "/ip/199.66.11.62"
+    },
+    {
+      "title": "199.66.11.0/24",
+      "href": "/net/199.66.11.0/24"
+    },
+    {
+      "title": "AS394161 Tesla, Inc.",
+      "href": "/AS394161"
+    }
+  ]
+}
